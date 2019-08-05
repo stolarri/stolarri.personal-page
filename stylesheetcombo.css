@@ -1,4 +1,4 @@
-/* desktop - hover 2 */
+/* desktop - home */
 
 position: relative;
 width: 1440px;
@@ -26,49 +26,6 @@ left: 0px;
 top: 679px;
 
 background: #FFFFFF;
-
-
-/* button - cv */
-
-position: absolute;
-width: 200px;
-height: 50px;
-left: 780px;
-top: 797px;
-
-
-
-/* Rectangle 4.1 */
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-border: 1px solid #FFC53D;
-box-sizing: border-box;
-border-radius: 15px;
-
-
-/* Check my CV */
-
-position: absolute;
-left: 21.5%;
-right: 21.5%;
-top: 28%;
-bottom: 28%;
-
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-text-align: center;
-
-color: #FFC53D;
-
 
 
 /* button contact */
@@ -1342,7 +1299,7 @@ top: 0px;
 
 position: absolute;
 left: 24.65%;
-right: 23.12%;
+right: 23.13%;
 top: 76.67%;
 bottom: 0%;
 
@@ -1374,8 +1331,8 @@ background: #515151;
 /* Vector */
 
 position: absolute;
-left: 56.88%;
-right: 3.12%;
+left: 56.87%;
+right: 3.13%;
 top: 6.67%;
 bottom: 70%;
 
@@ -1440,7 +1397,7 @@ background: #515151;
 /* Vector */
 
 position: absolute;
-left: 6.88%;
+left: 6.87%;
 right: 84.79%;
 top: 81.67%;
 bottom: 15%;
@@ -1473,7 +1430,7 @@ background: #515151;
 /* Vector */
 
 position: absolute;
-left: 6.88%;
+left: 6.87%;
 right: 86.46%;
 top: 13.33%;
 bottom: 83.33%;
@@ -1662,8 +1619,8 @@ color: #222222;
 position: absolute;
 width: 96px;
 height: 96px;
-left: -48px;
-top: 110px;
+left: -35px;
+top: 138px;
 
 box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.15);
 
@@ -1673,8 +1630,8 @@ box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.15);
 position: absolute;
 width: 96px;
 height: 96px;
-left: -48px;
-top: 110px;
+left: -35px;
+top: 138px;
 
 
 
@@ -1683,8 +1640,8 @@ top: 110px;
 position: absolute;
 width: 96px;
 height: 96px;
-left: -48px;
-top: 110px;
+left: -35px;
+top: 138px;
 
 background: #C4C4C4;
 
@@ -1694,8 +1651,8 @@ background: #C4C4C4;
 position: absolute;
 width: 105.6px;
 height: 97.01px;
-left: -52.55px;
-top: calc(50% - 97.01px/2 + 137.98px);
+left: -39.55px;
+top: calc(50% - 97.01px/2 + 165.98px);
 
 background: url(OTSOUE0.jpg);
 
@@ -2517,6 +2474,50 @@ border-radius: 15px;
 position: absolute;
 left: 27.5%;
 right: 27.5%;
+top: 30%;
+bottom: 26%;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+border-radius: 15px;
+
+
+/* button contact */
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 780px;
+top: 797px;
+
+mix-blend-mode: normal;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+border-radius: 15px;
+
+
+/* Check my CV */
+
+position: absolute;
+left: 21.5%;
+right: 21.5%;
 top: 30%;
 bottom: 26%;
 

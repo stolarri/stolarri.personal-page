@@ -1,0 +1,243 @@
+/* buttons */
+
+position: relative;
+width: 725px;
+height: 390px;
+
+background: #FFFFFF;
+
+
+/* button contact */
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 33px;
+top: 87px;
+
+mix-blend-mode: normal;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+border-radius: 15px;
+
+
+/* Contact me! */
+
+position: absolute;
+left: 23.5%;
+right: 23.5%;
+top: 30%;
+bottom: 26%;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+border-radius: 15px;
+
+
+/* button - cv */
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 411px;
+top: 87px;
+
+
+
+/* Rectangle 4.1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #FFC53D;
+box-sizing: border-box;
+border-radius: 15px;
+
+
+/* Check my CV */
+
+position: absolute;
+left: 21.5%;
+right: 21.5%;
+top: 28%;
+bottom: 28%;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+
+color: #FFC53D;
+
+
+
+/* button view hover */
+
+position: absolute;
+width: 100px;
+height: 50px;
+left: 411px;
+top: 177px;
+
+
+
+/* button - cv */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 4.1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #FFC53D;
+box-sizing: border-box;
+border-radius: 15px;
+
+
+/* View */
+
+position: absolute;
+left: 28.5%;
+right: 28.5%;
+top: 28%;
+bottom: 28%;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+
+color: #FFC53D;
+
+
+
+/* button view */
+
+position: absolute;
+width: 100px;
+height: 50px;
+left: 33px;
+top: 177px;
+
+
+
+/* button contact */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+mix-blend-mode: normal;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+border-radius: 15px;
+
+
+/* View */
+
+position: absolute;
+left: 28.5%;
+right: 28.5%;
+top: 30%;
+bottom: 26%;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+border-radius: 15px;
+
+
+/* form box */
+
+position: absolute;
+width: 639px;
+height: 56px;
+left: 33px;
+top: 252px;
+
+
+
+/* Rectangle 8.1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FAFAFF;
+border-radius: 15px;
+
+
+/* Name */
+
+position: absolute;
+left: 3.76%;
+right: 3.6%;
+top: 0%;
+bottom: 0%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #A0A0A0;
+
