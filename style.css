@@ -6,6 +6,7 @@ body {
     position: relative;
     width: 1440px;
     height: 3559px;
+    left: 8%;
 
     background: #FFFFFF;
 }
@@ -69,8 +70,9 @@ body {
     position: absolute;
     width: 1440px;
     height: 585px;
-    left: 10px;
+    left: 0px;
     top: 94px;
+    background-image: url("img/coverphoto.png");
 }
 
 .wrap {
@@ -125,6 +127,544 @@ letter-spacing: 0.02em;
 
 color: #AAAAFF;
 margin-top: 0;
+}
+
+.socialMedia{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 176px;
+    height: 25px;
+    left: 675px;
+    top: 360px;
+
+}
+
+.fb {
+    
+    width: 25px;
+    height: 25px;
+    left: 650px;
+    top: 360px;
+
+    mix-blend-mode: normal;
+    background-image: url("img/fb.png")
+}
+
+.tw {
+    
+    width: 25px;
+    height: 25px;
+    left: 675px;
+    top: 360px;
+    background-image: url("img/tw.png")
+}
+
+.li {
+    
+    width: 25px;
+    height: 25px;
+    left: 725px;
+    top: 360px;
+    background-image: url("img/li.png")
+}
+
+.git {
+    
+    width: 25.64px;
+    height: 25px;
+    left: 775px;
+    top: 360px;
+
+    
+    mix-blend-mode: normal;
+    background-image: url("img/git.png")
+}
+
+.contactMe {
+    
+    position: absolute;
+    width: 1440px;
+    height: 220px;
+    left: 0px;
+    top: 679px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactMe > p {
+   
+    width: 714px;
+    height: 43px;
+    left: 363px;
+    top: 718px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #222222;
+    margin-bottom: 0;
+
+}
+
+.contactMe > .buttons {
+    
+    width: 714px;
+    height: 100px;
+    left: 363px;
+    top: 1018px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contactButton {
+    
+    
+    width: 200px;
+    height: 50px;
+    mix-blend-mode: normal;
+    border: 1px solid #FFC53D;
+    box-sizing: border-box;
+    border-radius: 15px;
+    left: 23.5%;
+    right: 23.5%;
+    top: 28%;
+    bottom: 28%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFC53D;
+    
+}
+
+
+
+.contactButtonCV {
+    
+        
+        width: 200px;
+        height: 50px;
+        mix-blend-mode: normal;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+        border-radius: 15px;
+}
+
+.aboutMe {
+    
+    position: absolute;
+    width: 1341px;
+    height: 430px;
+    left: 100px;
+    top: 900px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+#cv {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    left: 0px;
+    /* top: calc(50% - 97.01px/2 + 165.98px); */
+
+    background: url("img/zdjecie cv.jpg");
+    background-size: cover;
+}
+
+.aboutMe > .infoRectangle > hr {
+
+    width: 196px;
+    height: 1px;
+    left: 617px;
+    top: 1012px;
+
+    border: 4px dashed #FFC53D;
+    transform: rotate(90deg);
+}
+
+.aboutMe > p {
+    
+    width: 639px;
+    height: 280px;
+    left: 643px;
+    top: 973px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 172.35%;
+    /* or 31px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    
+}
+
+.info {
+    
+    width: 274px;
+    height: 181px;
+    left: 414px;
+    top: 1024px;
+}
+
+.infoRectangle {
+   
+    width: 1241px;
+    height: 280px;
+    left: 200px;
+    top: 974px;
+
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info > ul > li {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 160.86%;
+    /* identical to box height, or 29px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #222222;
+}
+
+.info > ul > li > span {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 160.86%;
+    /* identical to box height, or 29px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #FFC53D;
+
+}
+
+.skills {
+    position: absolute;
+    width: 1341px;
+    height: 430px;
+    left: 100px;
+    top: 1387px;
+}
+
+.portfolio {
+    position: absolute;
+    width: 1441px;
+    height: 759.03px;
+    left: 0px;
+    top: 1860px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    
+
+
+
+}
+
+.portfolioTitle {
+    
+    width: 1441px;
+    height: 38px;
+    left: 0px;
+    top: 1860px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #222222;
+}
+
+.photos {
+    width: 1441px;
+    height: 698.43px;
+    left: 0px;
+    top: 1920.61px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+#photo1 {
+    
+    width: 529.78px;
+    height: 346.12px;
+    left: 0px;
+    top: 1920.61px;
+    margin: 0;
+    
+
+    background: url("img/work-abroad-unspl.png");
+    
+}
+
+#photo2 {
+    width: 391.92px;
+    height: 346.12px;
+    left: 529.78px;
+    top: 1920.61px;
+
+    background: url("img/20180619_150208-1.png");
+}
+
+#photo3 {
+
+width: 518px;
+height: 346px;
+left: 922px;
+top: 1921px;
+
+
+
+background: url("img/RAW-BEETROOT-MINT-SALAD-healthy-plant-based-vegan-dairy-free-gluten-free-raw-orange-dressing-carrot-raisins-seeds-easy-recipe-begoodorganics-buffyellen-nutritionist-naturopath-begoodorganics-3.png");
+}
+
+
+#photo4 {
+    width: 392.04px;
+    height: 352.3px;
+    left: 0px;
+    top: 2266.73px;
+    
+
+    background: url("img/32739439685_8ac3345836_b.png");
+    
+
+}
+
+#photo5 {
+    width: 1048.96px;
+    height: 352.3px;
+    left: 392.04px;
+    top: 2266.73px;
+    
+
+    background: url("img/porady-grafiki_10_u1.png");
+
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 18px;
+    left: 0px;
+    top: 3510px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #A0A0A0;
+                   
+}
+.contactMain {
+    position: absolute;
+    width: 1440px;
+    height: 785px;
+    left: 0px;
+    top: 2691px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #FAFAAF;
+}
+.contactForm {
+    width: 1241px;
+    height: 621px;
+    left: 100px;
+    top: 2765px;
+
+    background: #AAFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+}
+
+.contactRect {
+    width: 509px;
+    height: 621px;
+    left: 100px;
+    top: 2765px;
+
+    background: #FF9A3D;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoMsg {
+    
+    width: 68px;
+    height: 68px;
+    left: 352px;
+    top: 2789px;
+
+    background: url("img/logo_message.png")
+}
+
+.contactRect > p {
+    width: 457px;
+    height: 106px;
+    left: 152px;
+    top: 2882px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 172.35%;
+    align-items: center;
+    /* or 31px */
+
+    letter-spacing: 0.04em;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.socialMedia2 {
+    width: 176px;
+    height: 25px;
+    left: 152px;
+    top: 3194px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.contactRect > .loc {
+    width: 149px;
+    height: 50px;
+    left: 152px;
+    top: 3228px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+.contactRect > .address {
+    width: 250px;
+    height: 75px;
+    left: 152px;
+    top: 3276px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+#userName {
+    width: 639px;
+    height: 56px;
+    left: 657px;
+    top: 2871px;
+
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+#email {
+    width: 639px;
+    height: 56px;
+    left: 657px;
+    top: 2944px;
+
+}
+#topic {
+    width: 639px;
+    height: 56px;
+    left: 657px;
+    top: 2999px;
+}
+#msg {
+    width: 639px;
+    height: 180px;
+    left: 657px;
+    top: 3090px;
+
+    
+}
+#start {
+    position: absolute;
+    width: 684px;
+    height: 48px;
+    left: 657px;
+    top: 2798px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 172.35%;
+    /* or 62px */
+
+    letter-spacing: 0.04em;
+
+    color: #222222;
+
 }
 
 /*
