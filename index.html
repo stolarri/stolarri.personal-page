@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio Page</title>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -42,10 +43,10 @@
         <div class="contactMe">
             <p>I am happy to help you with any problem!</p>
             <div class="buttons">
-                    <button class="contactButton" type="button">Contact Me</button>
-                    <button class="contactButtonCV" type="button">Check My Resume</button>
+                <button class="contactButton" type="button">Contact Me</button>
+                <button class="contactButtonCV" type="button">Check My Resume</button>
             </div>
-            
+
         </div>
         <div class="aboutMe">
             <div class="infoRectangle">
@@ -61,76 +62,109 @@
                 </div>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br>
-                    do eiusmodtempor incididunt ut labore et dolore magna aliqua. <br> 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br> 
+                    do eiusmodtempor incididunt ut labore et dolore magna aliqua. <br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
                     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>
                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>
                     pariatur. ex ea commodo consequat.</p>
             </div>
         </div>
-    
-        
+
+        <div id="skillsTitle">Skills</div>
+
         <div class="skills">
+
+            <div class="skills-item">
+                <div class=skills-item_img><img src="img/java1.png" alt=""></div>
+                <div class="skills-item_txt">
+                    <h3>Java</h3>
+                </div>
+            </div>
+            <div class="skills-item">
+                <div class="skills-item_img"><img src="img/python.jpg" alt=""></div>
+                <div class="skills-item_txt">
+                    <h3>Python</h3>
+                </div>
+            </div>
+            <div class="skills-item">
+                <div class="skills-item_img"><img src="img/js.png" alt=""></div>
+                <div class="skills-item_txt">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+            <div class="skills-item">
+                <div class="skills-item_img"><img src="img/gitlogo.png" alt=""></div>
+                <div class="skills-item_txt">
+                    <h3>GIT</h3>
+                </div>
+            </div>
 
         </div>
         <div class="portfolio">
             <div class="portfolioTitle">Portfolio</div>
             <div class="photos">
-                    <div id="photo1"></div>
-                    <div id="photo2"></div>
-                    <div id="photo3"></div>
-                    <div id="photo4"></div>
-                    <div id="photo5"></div>
+                <div id="photo1">
+                    <button class="contactButtonCV" type="button">View</button>
+                </div>
+                <div id="photo2"></div>
+                <div id="photo3"></div>
+                <div id="photo4"></div>
+                <div id="photo5">
+                    <h1>Design Project</h1>
+                    <button class="contactButtonCV" type="button">View</button>
+                </div>
             </div>
         </div>
+        <div id="contactText">Contact Me</div>
+        <div id="start">Let's Start!</div>
         <div class="contactMain">
-                <div class="contactForm">
-                        <div class="contactRect">
-                            <div class="logoMsg"></div>
-                            <p>Please describe your question.<br>
-                                Send me a message and I will answer you as soon as possible! </p>
-                            <div class="socialMedia2">
-                                        <div class=fb></div>
-                                        <div class=tw></div>
-                                        <div class=li></div>
-                                        <div class=git></div>
-                            </div>
-                            <p class="loc">Your Designer<br>
-                                Poland, Wrocław</p>
-                            <p class="address">
-                                    
-                                    ul. Graciana 12/3 51-234<br>
-                                    +48 666-777-888<br>
-                                    mstolarek@dev.com
-                            </br>    
-                        </div>
-                        <div id="start">Let's Start!</div>
+            <div class="contactForm">
+                <div class="contactRect">
+                    <div class="logoMsg"></div>
+                    <p>Please describe your question.<br>
+                        Send me a message and I will answer you as soon as possible! </p>
+                    <div class="socialMedia2">
+                        <div class=fb></div>
+                        <div class=tw></div>
+                        <div class=li></div>
+                        <div class=git></div>
+                    </div>
+                    <p class="loc">Your Designer<br>
+                        Poland, Wrocław</p>
+                    <p class="address">
 
-                        <div id="formMain">
-                            <form>
-                                <input type="text" id="userName" placeholder="Name">
-                                 <br>
-                                <input type="text" id="email" placeholder="Your email address">
-                                 <br>
-                                <input type="text" id="topic" placeholder="Topic">
-                                 <br>
-                                <input type="text" id="msg" placeholder="Message">
-                                 <br>
-                                
-
-                            </form>
-                        </div>
+                        ul. Graciana 12/3 51-234<br>
+                        +48 666-777-888<br>
+                        mstolarek@dev.com</p>
+                    </br>
                 </div>
-                
+
+
+                <div id="formMain">
+                    <form>
+                        <input type="text" id="userName" placeholder="Name">
+                        <br>
+                        <input type="text" id="email" placeholder="Your email address">
+                        <br>
+                        <input type="text" id="topic" placeholder="Topic">
+                        <br>
+                        <input type="text" id="msg" placeholder="Message">
+                        <br>
+
+
+                    </form>
+                </div>
+            </div>
+
         </div>
         <div class="footer">
             <p>
-                Copyrights © 2019  CodersCrew     
+                Copyrights © 2019 CodersCrew
             </p>
         </div>
 
     </div>
-  
+
 </body>
 
 </html>
