@@ -1,12 +1,18 @@
-body {
-    font-family: 'Ubuntu', sans-serif;
+html {
+    scroll-behavior: smooth;
 }
+
+body {
+    font-family: 'Ubuntu', sans-serif
+}
+
 
 .container {
     position: relative;
     width: 1440px;
     height: 3559px;
     left: 8%;
+    display: flex;
 
     background: #FFFFFF;
 }
@@ -33,6 +39,14 @@ body {
     justify-content: flex-start;
     align-items: center;
     font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.nav>li:hover {
+    background-color: #FFC53D;
+    color: white;
 }
 
 .nav>li {
@@ -73,6 +87,7 @@ body {
     left: 0px;
     top: 94px;
     background-image: url("img/coverphoto.png");
+    background-size: cover;
 }
 
 .wrap {
@@ -125,7 +140,7 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.02em;
 
-color: #AAAAFF;
+color: rgb(243, 242, 248);
 margin-top: 0;
 }
 
@@ -223,6 +238,8 @@ margin-top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 .contactButton {
     
@@ -245,7 +262,14 @@ margin-top: 0;
     text-align: center;
     color: #FFC53D;
     
+    
 }
+
+  
+  .contactButton:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
 
 
 
@@ -255,7 +279,7 @@ margin-top: 0;
         width: 200px;
         height: 50px;
         mix-blend-mode: normal;
-        font-family: Raleway;
+        font-family: Ubuntu;
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -268,6 +292,11 @@ margin-top: 0;
         bottom: 0%;
         background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
         border-radius: 15px;
+}
+
+.contactButtonCV:hover {
+        background-color: #4CAF50;
+        color: white;
 }
 
 .aboutMe {
@@ -313,7 +342,7 @@ margin-top: 0;
     left: 643px;
     top: 973px;
 
-    font-family: Raleway;
+    font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -350,7 +379,7 @@ margin-top: 0;
 }
 
 .info > ul > li {
-    font-family: Raleway;
+    font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -384,7 +413,7 @@ margin-top: 0;
     position: absolute;
     width: 1341px;
     height: 430px;
-    left: 100px;
+    left: 200px;
     top: 1387px;
 }
 
@@ -412,7 +441,7 @@ margin-top: 0;
     left: 0px;
     top: 1860px;
 
-    font-family: Raleway;
+    font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -445,11 +474,27 @@ margin-top: 0;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+    transition: .5s ease;
+    backface-visibility: hidden;
 
     background: url("img/work-abroad-unspl.png");
     
 }
+
+#photo1 .contactButtonCV {
+        transition: .5s ease;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+}
+
+/* #photo1:hover {
+    opacity: 0.3;
+} */
+
+#photo1:hover .contactButtonCV {
+    opacity: 1;
+  }
 
 #photo2 {
     width: 391.92px;
@@ -458,6 +503,16 @@ margin-top: 0;
     top: 1920.61px;
 
     background: url("img/20180619_150208-1.png");
+}
+
+#photo2:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
 }
 
 #photo3 {
@@ -494,12 +549,40 @@ background: url("img/RAW-BEETROOT-MINT-SALAD-healthy-plant-based-vegan-dairy-fre
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+    transition: .5s ease;
+    backface-visibility: hidden;
     
 
     background: url("img/porady-grafiki_10_u1.png");
 
 }
+
+#photo5 .contactButtonCV {
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#photo5 h1 {
+    transition: .5s ease;
+    opacity: 0.1;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#photo5:hover .contactButtonCV {
+    opacity: 1;
+    }
+
+ #photo5:hover h1 {
+    opacity: 1;
+ }
+
+#photo5:hover {
+opacity: 0.3;
+}
+
 
 .footer {
     position: absolute;
@@ -574,7 +657,7 @@ background: url("img/RAW-BEETROOT-MINT-SALAD-healthy-plant-based-vegan-dairy-fre
     left: 152px;
     top: 2882px;
 
-    font-family: Raleway;
+    font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -703,7 +786,7 @@ background: url("img/RAW-BEETROOT-MINT-SALAD-healthy-plant-based-vegan-dairy-fre
     position: absolute;
     width: 1341px;
     height: 430px;
-    left: 0px;
+    left: 50px;
     top: 1387px;
     display: flex;
     justify-content: space-around;
@@ -743,7 +826,13 @@ background: url("img/RAW-BEETROOT-MINT-SALAD-healthy-plant-based-vegan-dairy-fre
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
+
+.skills-item:hover {
+    opacity: 0.3;
+  }
 
 .skills-item_img{
     flex-basis: 120px;
@@ -778,7 +867,7 @@ background: url("img/RAW-BEETROOT-MINT-SALAD-healthy-plant-based-vegan-dairy-fre
     padding: 20px;
     letter-spacing: 0.02em;
 
-    color: #FFFFFF;
+    color: rgb(201, 93, 22);
 }
 
 #photo5 > h1 {
@@ -796,7 +885,7 @@ background: url("img/RAW-BEETROOT-MINT-SALAD-healthy-plant-based-vegan-dairy-fre
     padding: 20px;
     letter-spacing: 0.02em;
 
-    color: #FFFFFF;
+    color: rgb(226, 77, 17);
 }
 
 
